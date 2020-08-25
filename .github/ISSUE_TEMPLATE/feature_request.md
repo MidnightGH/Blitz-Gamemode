@@ -1,6 +1,6 @@
 ---
 name: Feature request
-about: Suggestg an idea for blitz.
+about: Suggest an idea for blitz.
 title: "[FEATURE REQUEST]"
 labels: enhancement
 assignees: MidnightGH
