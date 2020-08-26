@@ -19,7 +19,7 @@ class Params {
         title = "enable fatigue";
         values[]={0,1};
         texts[]={"false","true"};
-        default = 1;
+        default = 0;
     };
     class blitz_weaponsway {
         title = "enable weapon sway";
