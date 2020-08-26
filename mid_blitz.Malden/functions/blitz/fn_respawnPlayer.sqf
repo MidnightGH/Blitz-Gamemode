@@ -5,7 +5,9 @@ player setPos mkr;
 player setDir (random 360);
 player addRating -2500;
 player setAnimSpeedCoef 1.5;
-player enableFatigue false;
+if((paramsArray # 3) == 0) then {
+	player enableFatigue false;
+};
 hintSilent "";
 if(player getVariable ["blitz_timer",0] != 0) then {
 		player setVariable["blitz_timer",0];
