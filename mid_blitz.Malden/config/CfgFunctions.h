@@ -7,6 +7,7 @@ class CfgFunctions {
             class boundary { };
             class playerLoadout { };
             class blitzPlayer { };
+            class nameTags { };
         };
         class blitz_ai {
             file = "functions\ai";
