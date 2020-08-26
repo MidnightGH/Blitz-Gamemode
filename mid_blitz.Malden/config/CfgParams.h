@@ -13,7 +13,7 @@ class Params {
     class blitz_recoil {
         title = "blitzed player recoil";
         values[]={0.25,0.5,0.75,1,1.5,2};
-        default = 0.5;
+        default = 0.75;
     };
     class blitz_fatigue {
         title = "enable fatigue";
@@ -25,5 +25,11 @@ class Params {
         title = "enable weapon sway";
         values[]={0,1};
         texts[]={"false","true"};
+    };
+    class blitz_nametags {
+        title = "enable name tags";
+        values[]={0,1};
+        texts[]={"false","true"};
+        default = 0;
     };
 };
