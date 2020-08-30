@@ -32,6 +32,7 @@ class Params {
         texts[]={"false","true"};
         default = 0;
     };
+    /*
     class blitz_ai {
         title ="enable ai enemies";
         values[]={0,1};
@@ -40,3 +41,4 @@ class Params {
         function = "blitz_fnc_blitzAI";
     };
 };
+*/
