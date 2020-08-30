@@ -1,12 +1,12 @@
-params[
-	["_ai",objNull,[objNull]]
-];
-_ai addEventHandler["Killed",
+if(_this isEqualto 0) exitWith { };
 {
-	params["_ai","_killer"];
+	_x addEventHandler["Killed",
 	{
-		if(local player) then {
-			player setVariable["blitz_timer",30,true];
-		};
-	} remoteExec["call",_killer];
-}];
+		params["_ai","_killer"];
+		{
+			if(local player) then {
+				player setVariable["blitz_timer",30,true];
+			};
+		} remoteExec["call",_killer];
+	}];
+} forEach (units _grp);
