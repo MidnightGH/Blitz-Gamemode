@@ -40,5 +40,5 @@ class Params {
         default = 0;
         function = "blitz_fnc_blitzAI";
     };
+    */
 };
-*/
