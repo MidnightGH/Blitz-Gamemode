@@ -5,6 +5,9 @@ while{alive player} do {
 		sleep 10;
 		if !(player inArea "ao") then {
 			player setDamage 1;
+		} else {
+			hintSilent "";
 		};
 	};
+	sleep 1;
 };
