@@ -1,0 +1,29 @@
+#include "config\CfgFunctions.h"
+#include "config\CfgParams.h"
+#include "config\CfgHints.h"
+#include "config\CfgLoadouts.h"
+class Header {
+	gameType = TDM;
+	minPlayers = 1;
+	maxPlayers = 64;
+};
+saving = 0;
+respawn = 3;
+respawnDelay = 1;
+respawnOnStart = 0;
+disabledAI = 1;
+author = "mudnut";
+onLoadName = "Blitz";
+onLoadMission = "Blitz";
+loadScreen = "images\blitz_loading.jpg";
+briefingName = "Blitz";
+overViewPicture = "";
+overViewText = "Blitz Stratis";
+overViewTextLocked = "";
+/* GC */
+corpseManagerMode = 1;
+corpseLimit = 1;
+corpseRemovalMinTime = 10;
+corpseRemovalMaxTime = 30;
+enableDebugConsole = 1;
+joinUnassigned = 0;
